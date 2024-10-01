@@ -1,6 +1,11 @@
-#include <stdio.h>
+/*
+ * Author: Luan Ferreira
+ * Exercise: Pointers in C
+ * HackerRank URL for this exercise: https://www.hackerrank.com/challenges/pointer-in-c/problem?isFullScreen=true
+ * Last verified on: October 01, 2024
+*/
 
-//Pointers in C
+#include <stdio.h>
 
 void update(int *a,int *b) {
     int temp = *a;

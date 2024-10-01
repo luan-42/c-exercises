@@ -1,6 +1,11 @@
-#include <stdio.h>
+/*
+ * Author: Luan Ferreira
+ * Exercise: Sum and Difference of Two Numbers
+ * HackerRank URL for this exercise: https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true
+ * Last verified on: October 01, 2024
+*/
 
-//Sum and Difference of Two Numbers
+#include <stdio.h>
 
 int main() {
     int a, b;

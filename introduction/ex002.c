@@ -1,6 +1,11 @@
-#include <stdio.h>
+/*
+ * Author: Luan Ferreira
+ * Exercise: Playing With Characters
+ * HackerRank URL for this exercise: https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true
+ * Last verified on: October 01, 2024
+*/
 
-//Playing With Characters
+#include <stdio.h>
 
 int main() 
 {

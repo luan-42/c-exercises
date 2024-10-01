@@ -1,6 +1,11 @@
-#include <stdio.h>
+/*
+ * Author: Luan Ferreira
+ * Exercise: "Hello World!" in C
+ * HackerRank URL for this exercise: https://www.hackerrank.com/challenges/hello-world-c/problem?isFullScreen=true
+ * Last verified on: October 01, 2024
+*/
 
-//"Hello World!" in C
+#include <stdio.h>
 
 int main() {
     char s[100];

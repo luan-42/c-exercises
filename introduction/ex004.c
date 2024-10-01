@@ -1,6 +1,11 @@
-#include <stdio.h>
+/*
+ * Author: Luan Ferreira
+ * Exercise: Functions in C
+ * HackerRank URL for this exercise: https://www.hackerrank.com/challenges/functions-in-c/problem?isFullScreen=true
+ * Last verified on: October 01, 2024
+*/
 
-//Functions in C
+#include <stdio.h>
 
 int max_of_four(int a, int b, int c, int d) {
     int result = a;
