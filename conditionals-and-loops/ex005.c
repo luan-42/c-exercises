@@ -13,26 +13,20 @@
 int main() 
 {
     int n;
-
     scanf("%d", &n);
 
     int size = n + n - 1;
-    int m[size][size];
-
-    for (int k = 0; k < n; k++) {
-        for (int i = k; i < size - k; i++) {
-            for (int j = k; j < size - k; j++) {
-                m[i][j] = n - k;
-            }
-        }
-    }
 
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
-            printf("%d ", m[i][j]);
+            for (int k = 0; k < n; k++) {
+                if (k == i || k == j || size - 1 - k == i || size - 1 - k == j) {
+                    printf("%d ", n - k);
+                    break;
+                }
+            }
         }
         printf("\n");
     }
-    
     return 0;
 }
